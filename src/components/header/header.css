@@ -1,10 +1,56 @@
 .App-header {
-	background-color: #282c34;
-	min-height: 20vh;
-	display: flex;
-	flex-direction: column;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+
+	width: 100vw;
+	height: 45px;
+	position: fixed;
+
+	display:flex;
 	align-items: center;
+	justify-content: space-between;
+}
+
+.Logo {
+	display: inline;
+
+}
+
+.Titulo {
+	font-family: Ropa Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc(30px);
+	color: #777777;
+
+	margin: auto 0 auto 10px;
+	display: inline;
+}
+
+.FullSlogan {
+	display: inline;
+
+	width: 100px;
+
+	flex-direction: column;
 	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.slogan {
+	font-family: Ropa Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc(15px);
+	color: #AAAAAA;
+
+	display:inline;
+
+}
+
+.menu {
+	width: calc(30px + 1vmin);
+	background: #AAAAAA;
+	margin-right: 20px;
 }
